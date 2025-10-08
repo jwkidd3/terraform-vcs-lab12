@@ -24,7 +24,7 @@ variable "instance_type" {
 variable "min_instances" {
   description = "Minimum number of instances"
   type        = number
-  default     = 1
+  default     = 2
 }
 
 variable "max_instances" {
