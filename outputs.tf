@@ -1,3 +1,5 @@
+#comment
+
 output "application_url" {
   description = "URL to access the deployed application"
   value       = "http://${aws_lb.main.dns_name}"
